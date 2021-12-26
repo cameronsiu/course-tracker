@@ -38,16 +38,6 @@ const getToggles = () => {
         });
 };
 
-// const myToggle = (toggle) => {
-
-//     if (toggle.checked) {
-//         console.log(toggle.name + " Toggled On!")
-//     } else {
-//         console.log(toggle.name + " Toggled Off!");
-//     }
-//     sendToggle(toggle);
-// };
-
 getToggles();
 toggles.forEach(toggle => {
     toggle.addEventListener("click", () => {
